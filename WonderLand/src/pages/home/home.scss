@@ -1,0 +1,50 @@
+page-home {
+
+   
+
+}
+
+.start{
+    background-image: url('../assets/imgs/alice2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.poczatek{
+    font-size: 40px;
+   font-style: italic;
+   font-family: Impact;
+   text-align: center;
+    color: rgba(220, 230, 227, 0.925);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+}
+
+.poczatek2{
+    font-size: 62px;
+   font-style: italic;
+   font-family: Impact;
+   text-align: center;
+   color: rgb(58, 11, 66);
+   text-shadow: 0 0 0.5em rgb(137, 79, 158);
+  
+}
+
+.paw{
+    height: 75px;
+   box-shadow: 0px 8px 15px rgba(228, 8, 236, 0.288);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   transform: translateY(-25px);
+}
+
+.paw:hover{
+    background-color: rgb(79, 11, 134);
+  box-shadow: 0px 15px 20px rgba(50, 1, 54, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+

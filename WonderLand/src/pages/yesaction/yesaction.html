@@ -1,0 +1,30 @@
+<ion-content padding class="startyes">
+
+  
+        <div class="cheshireyes" >
+          So darling, let's play a little game!   
+          <br>       
+          First of all, catch it!
+        </div>
+       
+       <button padding class="pawyes" ion-button  icon-only color="dark" (click)="error()">
+        <ion-icon  name="paw"></ion-icon>
+      </button>
+
+      <button padding class="ilusion" ion-button color= "light" (click)="scan()">
+      </button>
+     
+
+      <div padding class="rabbit" *ngIf="scanData">
+
+        <img src="../assets/imgs/rabbit_time.jpg" alt="Rabbit" width="500px" height="655px"> 
+      </div>
+
+      <!-- <div *ngIf="scanData">
+        <ion-card-content>
+          Result from Scan: {{scanData}}
+        </ion-card-content>
+      </div> -->
+
+
+          </ion-content>

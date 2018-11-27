@@ -1,0 +1,38 @@
+page-noaction {  
+
+}
+
+.startno{
+    background-image: url('../assets/imgs/forest.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.cheshireno{
+    height: 400px;
+    width: 330px;
+  background:  rgba(87, 100, 96, 0.795);
+    border: 10px groove rgb(59, 16, 59);
+    font-size: 30px;
+    font-style: italic;
+   // color: palevioletred;
+    text-align: center;
+      
+}
+
+.okey{
+    height: 70px;
+    width: 330px;
+   box-shadow: 0px 8px 15px rgba(151, 4, 107, 0.719);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   transform: translateY(90px);
+}
+
+.okey:hover{
+    background-color: rgb(97, 3, 34);
+  box-shadow: 0px 15px 20px rgba(150, 6, 73, 0.623);
+  color: #fff;
+  transform: translateY(-7px);
+}

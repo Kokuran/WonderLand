@@ -1,0 +1,78 @@
+page-yesaction {  
+
+}
+
+.startyes{
+    background-image: url('../assets/imgs/Cheshire2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.cheshireyes{
+    height: 120px;
+    width: 330px;
+  background:  rgba(87, 100, 96, 0.685);
+    border: 10px groove rgb(100, 4, 17);
+    font-size: 25px;
+    font-style: italic;
+   // color: palevioletred;
+    text-align: center;
+      
+}
+
+.pawyes{
+    height: 90px;
+    width: 150px;
+   box-shadow: 0px 8px 15px rgba(236, 8, 8, 0.897);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   transform: translateY(150px);
+  transform: translateX(100px);
+   transform: translate(90px,400px);
+}
+
+.nextstep{
+    height: 80px;
+    width: 80px;
+   box-shadow: 0px 8px 15px rgb(255, 255, 255);
+   color: #fff;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   //transform: translate(-150px,50px);
+
+}
+
+.ilusion{
+    height: 20px;
+    width: 20px;
+   box-shadow: 0px 8px 15px rgb(255, 255, 255);
+   color: #fff;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   transform: translate(-170px,480px);
+
+}
+
+.pawyes:hover{
+    background-color: rgb(134, 11, 11);
+  box-shadow: 0px 15px 20px rgba(54, 1, 1, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.ilusion:hover{
+    background-color: rgba(49, 66, 141, 0.411);
+  box-shadow: 0px 15px 20px rgba(212, 109, 221, 0.815);
+  color: #fff;
+}
+
+.rabbit{
+width: 370px;
+ transform: translate(-18px,-224px);
+ background-image: url('../assets/imgs/brick.jpg');
+
+
+}
